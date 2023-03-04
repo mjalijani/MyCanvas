@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val drawView = DrawView(this)
-        drawView.setBackgroundColor(Color.BLACK)
+        drawView.setBackgroundColor(Color.WHITE)
         setContentView(drawView)
     }
 }
